@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #253d1f;
+    color: #F9FAF8;
+    padding: 0px 240px;
+}
+
+.header-links{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-list ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 18px;
+    gap:16px;
+    color: #E5E7EB;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    height: 460px;
+    justify-content: space-between;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px 0px 10px 0px;
+    width: 480px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px 0px 15px 0px;
+    width: 360px;
+}
+
+.hero-content button{
+    background-color: #5ba72b;
+    border:1px solid #2f2415;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    flex-grow: 0;
+    width: 160px;
+    padding: 8px;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 500px;
+    height: 334px;
+}
+
+.info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 48px 0px 0px 0px;
+}
+
+.box-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 240px;
+    margin: 0px;
+    height: 360px;
+    gap: 48px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box img{
+    height: 240px;
+    width: 160px;
+    margin: 0px 24px 12px 0px;
+}
+
+.box-subtext{
+    width: 160px;
+    margin: 0px;
+    padding: 0px;  
+    font-size: 16px;  
+    text-align: center;
+}
+
+.quote-section{
+    padding: 100px 480px 0px;
+    margin: 0px;
+    height: 360px;
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.quote{
+    font-size: 38px;
+    color:#1F2937;
+}
+
+.author{
+    text-align: end;
+    color:#1F2937;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.subscription{
+    height: 460px;
+    padding: 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription-box{
+    height: 200px;
+    background-color: #2f2415;
+    border:1px solid #2f2415;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    width: 960px;
+}
+
+.call{
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+}
+
+.description{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.subscription-box button{
+    color: white;
+    background-color: #2f2415;
+    border:2px solid white;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 800;
+    height: 36px;
+    width: 128px;
+    margin: 18px 40px 0px 0px; 
+}
+
+.footer{
+    height: 100px;
+    background-color: #253d1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+}
